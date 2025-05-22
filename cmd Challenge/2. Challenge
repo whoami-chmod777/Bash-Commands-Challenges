@@ -1,0 +1,60 @@
+
+Print the current working directory.
+
+(0)> pwd
+
+/var/challenges/current_working_directory
+
+
+# View Solutions
+
+pwd
+echo $PWD
+dirs
+pwd dir
+pwd current working directory
+pwd ls
+echo $(pwd)
+pwd "working directory"
+pwd hello world
+pwd working directory
+pwd "current working directory"
+pwd print
+pwd "hello world"
+pwd directory
+pwd echo
+echo "$PWD"
+pwd command
+pwd current directory
+printf $PWD
+pwd .
+echo | pwd
+pwd\
+pwd root
+pwd home
+pwd c
+echo `pwd`
+pwd p
+"pwd"
+pwd -P
+echo &pwd
+printf "$PWD"
+pwd dirs
+pwd /home
+pwd "home"
+pwd working
+dirs -p
+pwd /var/challenges/create_directory
+pwd C
+pwd $
+pwd -L
+realpath ./
+printf "${PWD}"
+'pwd'
+pwd P
+pwd [-LP]
+pwd command_line_for_the_win
+pwd 1s
+echo $(pwd);
+pwd C\Program Files
+pwd \
