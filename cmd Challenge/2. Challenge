@@ -6,7 +6,7 @@ Print the current working directory.
 /var/challenges/current_working_directory
 
 
-# View Solutions
+-- View Solutions --
 
 pwd
 echo $PWD
