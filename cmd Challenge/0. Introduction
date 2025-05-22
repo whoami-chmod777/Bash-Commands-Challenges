@@ -8,3 +8,17 @@ Test your shell knowledge by taking the CMD Challenge https://cmdchallenge.com
 4. There is a file named access.log in the current directory. Print the contents.
 5. Print the last 5 lines of "access.log".
 6. Create an empty file named take-the-command-challenge in the current working directory.
+7. Create a directory named tmp/files in the current working directory. Hint: The directory "tmp/" doesn't exist, with one command you need to create both "tmp/" and "tmp/files"
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
+19. 
+20. 
