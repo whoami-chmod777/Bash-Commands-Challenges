@@ -1,0 +1,60 @@
+
+There is a file named access.log in the current directory. Print the contents.
+
+(0)> cat access.log
+
+163.56.115.58 - - [09/Jan/2017:22:29:57 +0100] "GET /posts/2/display HTTP/1.0" 200 324075.113.188.234 - - [09/Jan/2017:22:30:43 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 111669.16.40.148 - - [09/Jan/2017:22:34:33 +0100] "GET /pages/create HTTP/1.0" 500 3471225.219.54.140 - - [09/Jan/2017:22:35:30 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 500 2477207.243.19.2 - - [09/Jan/2017:22:38:03 +0100] "GET /bar/create HTTP/1.0" 200 1116199.37.62.156 - - [09/Jan/2017:22:42:18 +0100] "GET /posts/1/display HTTP/1.0" 200 247755.74.240.123 - - [09/Jan/2017:22:44:25 +0100] "POST /posts/1/display HTTP/1.0" 200 3471251.111.109.143 - - [09/Jan/2017:22:49:02 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 2477101.163.230.250 - - [09/Jan/2017:22:52:31 +0100] "DELETE /posts/2/display HTTP/1.0" 404 2477200.19.168.148 - - [09/Jan/2017:22:57:11 +0100] "GET /posts/foo?appID=xxxx HTTP/1.0" 200 3471
+
+
+-- View Solutions --
+
+cat access.log
+cat *
+cat "access.log"
+cat ./access.log
+tail access.log
+head access.log
+cat  access.log
+echo "`<access.log`"
+pg access.log
+echo "$(<access.log)"
+cat 'access.log'
+cat < access.log
+cat /var/challenges/print_file_contents/access.log
+cat a*
+awk '{print $0}' access.log
+cat access*
+cat acc*
+while read line; do echo $line; done < access.log
+grep . access.log
+cat *log
+cat access.log\
+cat *.log
+cat $(pwd)/access.log
+echo "$(<access.log )"
+cat access.log*
+cat acces*
+cat ac*
+cat acce*
+grep "" access.log
+cat -t "access.log"
+echo "$(< access.log)"
+cat a*g
+cat access.log;
+cat *access.log*
+cat -t access.log
+cat a*log
+cat -- access.log
+'cat' access.log
+tail  access.log
+cat <access.log
+tail ./access.log
+cat access.*
+cat    access.log
+grep '.*' access.log
+grep ".*" access.log
+cat access.l*
+grep '_*' access.log
+cat -v access.log
+cat ''access.log''
+cat access.log |tail
